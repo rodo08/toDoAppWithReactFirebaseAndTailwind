@@ -15,51 +15,33 @@ To get started with this project, follow these steps:
 
 1.  **Clone the repository:**
 
-    bash
+        `git clone https://github.com/your-username/your-repo-name.git
 
-    Copy code
-
-    `git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name`
+    cd your-repo-name`
 
 2.  **Install dependencies:**
-
-    bash
-
-    Copy code
 
     `npm install`
 
 3.  **Set up Firebase:**
 
-    - Create a Firebase project in the Firebase Console.
-    - Add a new web app to your Firebase project.
-    - Copy the Firebase configuration and add it to a `.env` file in the root of your project as follows:
+            - Create a Firebase project in the Firebase Console.
+            - Add a new web app to your Firebase project.
+            - Copy the Firebase configuration and add it to a `.env` file in the root of your project as follows:
 
-      env
+        `VITE_FIREBASE_API_KEY=your-api-key
 
-      Copy code
-
-      `VITE_FIREBASE_API_KEY=your-api-key
-VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
-VITE_FIREBASE_PROJECT_ID=your-project-id
-VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
-VITE_FIREBASE_APP_ID=your-app-id`
+    VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+    VITE_FIREBASE_PROJECT_ID=your-project-id
+    VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+    VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+    VITE_FIREBASE_APP_ID=your-app-id`
 
 4.  **Start the development server:**
-
-    bash
-
-    Copy code
 
     `npm run dev`
 
 5.  **Build for production:**
-
-    bash
-
-    Copy code
 
     `npm run build`
 
